@@ -4,14 +4,18 @@
 #
 Name     : smart_open
 Version  : 1.3.3
-Release  : 1
+Release  : 2
 URL      : https://pypi.python.org/packages/29/9b/a49e646d1ab4b7e7d1005ce5cf7089ad97f80587db438279eb9bedb9c071/smart_open-1.3.3.tar.gz
 Source0  : https://pypi.python.org/packages/29/9b/a49e646d1ab4b7e7d1005ce5cf7089ad97f80587db438279eb9bedb9c071/smart_open-1.3.3.tar.gz
 Summary  : Utils for streaming large files (S3, HDFS, gzip, bz2...)
 Group    : Development/Tools
 License  : MIT
 Requires: smart_open-python
+Requires: boto
+Requires: bz2file
+Requires: requests
 BuildRequires : boto
+BuildRequires : bz2file
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : python-dev
@@ -37,12 +41,12 @@ python components for the smart_open package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1487000042
+export SOURCE_DATE_EPOCH=1487875866
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
-export SOURCE_DATE_EPOCH=1487000042
+export SOURCE_DATE_EPOCH=1487875866
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
