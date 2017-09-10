@@ -1,0 +1,2 @@
+# This file contains recursive sources that require this package
+gensim-0:2.3.0-7.src
