@@ -4,7 +4,7 @@
 #
 Name     : smart_open
 Version  : 1.5.7
-Release  : 21
+Release  : 22
 URL      : https://pypi.debian.net/smart_open/smart_open-1.5.7.tar.gz
 Source0  : https://pypi.debian.net/smart_open/smart_open-1.5.7.tar.gz
 Summary  : Utils for streaming large files (S3, HDFS, gzip, bz2...)
@@ -15,7 +15,6 @@ Requires: smart_open-python
 Requires: boto
 Requires: boto3
 Requires: bz2file
-Requires: python-mock
 Requires: requests
 BuildRequires : boto
 BuildRequires : boto3
@@ -59,7 +58,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1522378762
+export SOURCE_DATE_EPOCH=1528564598
 python3 setup.py build -b py3
 
 %install
