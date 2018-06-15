@@ -21,7 +21,7 @@ BuildRequires : boto3
 BuildRequires : bz2file
 BuildRequires : pbr
 BuildRequires : pip
-BuildRequires : python-dev
+
 BuildRequires : python3-dev
 BuildRequires : requests
 BuildRequires : setuptools
