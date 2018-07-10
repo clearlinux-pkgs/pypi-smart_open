@@ -4,7 +4,7 @@
 #
 Name     : smart_open
 Version  : 1.6.0
-Release  : 28
+Release  : 29
 URL      : https://pypi.debian.net/smart_open/smart_open-1.6.0.tar.gz
 Source0  : https://pypi.debian.net/smart_open/smart_open-1.6.0.tar.gz
 Summary  : Utils for streaming large files (S3, HDFS, gzip, bz2...)
