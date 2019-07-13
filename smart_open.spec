@@ -4,7 +4,7 @@
 #
 Name     : smart_open
 Version  : 1.8.4
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/37/c0/25d19badc495428dec6a4bf7782de617ee0246a9211af75b302a2681dea7/smart_open-1.8.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/37/c0/25d19badc495428dec6a4bf7782de617ee0246a9211af75b302a2681dea7/smart_open-1.8.4.tar.gz
 Summary  : Utils for streaming large files (S3, HDFS, gzip, bz2...)
