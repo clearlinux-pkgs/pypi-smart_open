@@ -1,5 +1,5 @@
 PKG_NAME := smart_open
-URL = https://files.pythonhosted.org/packages/37/c0/25d19badc495428dec6a4bf7782de617ee0246a9211af75b302a2681dea7/smart_open-1.8.4.tar.gz
+URL = https://files.pythonhosted.org/packages/0c/09/735f2786dfac9bbf39d244ce75c0313d27d4962e71e0774750dc809f2395/smart_open-1.9.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
