@@ -4,7 +4,7 @@
 #
 Name     : smart_open
 Version  : 2.1.1
-Release  : 47
+Release  : 48
 URL      : https://files.pythonhosted.org/packages/91/6f/788e657fb513deebadfbb38b346d4878b2fded0f72fe7d937b1646137f46/smart_open-2.1.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/91/6f/788e657fb513deebadfbb38b346d4878b2fded0f72fe7d937b1646137f46/smart_open-2.1.1.tar.gz
 Summary  : Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
