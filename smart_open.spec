@@ -4,7 +4,7 @@
 #
 Name     : smart_open
 Version  : 4.0.1
-Release  : 56
+Release  : 57
 URL      : https://files.pythonhosted.org/packages/e3/cf/6311dfb0aff3e295d63930dea72e3029800242cdfe0790478e33eccee2ab/smart_open-4.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e3/cf/6311dfb0aff3e295d63930dea72e3029800242cdfe0790478e33eccee2ab/smart_open-4.0.1.tar.gz
 Summary  : Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
@@ -14,15 +14,9 @@ Requires: smart_open-license = %{version}-%{release}
 Requires: smart_open-python = %{version}-%{release}
 Requires: smart_open-python3 = %{version}-%{release}
 Requires: awscli
-Requires: azure-common
-Requires: azure-core
-Requires: azure-storage-blob
 Requires: boto3
 Requires: requests
 BuildRequires : awscli
-BuildRequires : azure-common
-BuildRequires : azure-core
-BuildRequires : azure-storage-blob
 BuildRequires : boto3
 BuildRequires : buildreq-distutils3
 BuildRequires : bz2file
@@ -71,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1606590763
+export SOURCE_DATE_EPOCH=1609742734
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
