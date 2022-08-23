@@ -4,7 +4,7 @@
 #
 Name     : pypi-smart_open
 Version  : 6.1.0
-Release  : 80
+Release  : 81
 URL      : https://files.pythonhosted.org/packages/dc/9c/607fcf509f0019188fa7e0c3f6e1870abadb119bf6d7d673fba2105a5ef2/smart_open-6.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/dc/9c/607fcf509f0019188fa7e0c3f6e1870abadb119bf6d7d673fba2105a5ef2/smart_open-6.1.0.tar.gz
 Summary  : Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
