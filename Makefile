@@ -1,5 +1,5 @@
 PKG_NAME := pypi-smart_open
-URL = https://files.pythonhosted.org/packages/a3/d8/1481294b2d110b805c0f5d23ef34158b7d5d4283633c0d34c69ea89bb76b/smart_open-7.0.5.tar.gz
+URL = https://files.pythonhosted.org/packages/21/30/1f41c3d3b8cec82024b4b277bfd4e5b18b765ae7279eb9871fa25c503778/smart_open-7.1.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
