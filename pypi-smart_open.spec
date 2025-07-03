@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-smart_open
-Version  : 7.3.0
-Release  : 97
-URL      : https://files.pythonhosted.org/packages/35/11/2c98a2a66f37a8b50ceecfd3cfc2224f16ca25dacfa5d51a32985cac8647/smart_open-7.3.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/35/11/2c98a2a66f37a8b50ceecfd3cfc2224f16ca25dacfa5d51a32985cac8647/smart_open-7.3.0.tar.gz
+Version  : 7.3.0.post1
+Release  : 98
+URL      : https://files.pythonhosted.org/packages/18/2b/5e7234c68ed5bc872ad6ae77b8a421c2ed70dcb1190b44dc1abdeed5e347/smart_open-7.3.0.post1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/18/2b/5e7234c68ed5bc872ad6ae77b8a421c2ed70dcb1190b44dc1abdeed5e347/smart_open-7.3.0.post1.tar.gz
 Summary  : Utils for streaming large files (S3, HDFS, GCS, SFTP, Azure Blob Storage, gzip, bz2, zst...)
 Group    : Development/Tools
 License  : MIT
@@ -58,10 +58,10 @@ python3 components for the pypi-smart_open package.
 
 
 %prep
-%setup -q -n smart_open-7.3.0
-cd %{_builddir}/smart_open-7.3.0
+%setup -q -n smart_open-7.3.0.post1
+cd %{_builddir}/smart_open-7.3.0.post1
 pushd ..
-cp -a smart_open-7.3.0 buildavx2
+cp -a smart_open-7.3.0.post1 buildavx2
 popd
 
 %build
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1751414847
+export SOURCE_DATE_EPOCH=1751549640
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
